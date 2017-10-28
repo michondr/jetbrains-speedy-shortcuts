@@ -1,8 +1,8 @@
 # phpStorm
 phpstorm settings - keymap, macros
 
-keymap.xml, macros.xml -> C:\Users\<User>\.PhpStorm2017.2\config\options
-michondrKeymap.xml -> C:\Users\<User>\.PhpStorm2017.2\config\keymaps
+keymap.xml, macros.xml -> C:\Users\<User>\.PhpStorm2017.2\config\options <br />
+michondrKeymap.xml -> C:\Users\<User>\.PhpStorm2017.2\config\keymaps <br />
 
 Keymap:
 ActivateDatabaseConsoleToolWindow - alt 3 <br />
