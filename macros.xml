@@ -1,0 +1,17 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="open in new tab">
+      <action id="GotoDeclaration" />
+      <action id="Back" />
+    </macro>
+    <macro name="reformatSave">
+      <action id="RearrangeCode" />
+      <action id="ReformatCode" />
+      <action id="SaveAll" />
+    </macro>
+    <macro name="clear workspace">
+      <action id="CloseAllEditorsButActive" />
+      <action id="HideAllWindows" />
+    </macro>
+  </component>
+</application>
