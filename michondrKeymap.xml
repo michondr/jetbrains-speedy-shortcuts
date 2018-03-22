@@ -4,8 +4,13 @@
   </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
+    <keyboard-shortcut first-keystroke="alt #100011b" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="alt plus" />
+  </action>
   <action id="ActivateRedisServersToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
   </action>
@@ -34,10 +39,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
   <action id="Console.TableResult.Copy.DumpToClipboard">
-    <keyboard-shortcut first-keystroke="shift alt a" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="Console.TableResult.Copy.DumpToFile">
-    <keyboard-shortcut first-keystroke="alt a" />
+    <keyboard-shortcut first-keystroke="shift alt a" />
   </action>
   <action id="Console.TableResult.CountRows">
     <keyboard-shortcut first-keystroke="alt c" />
@@ -101,6 +106,9 @@
   <action id="Macro.clear workspace">
     <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
+  <action id="Macro.pushTranslate">
+    <keyboard-shortcut first-keystroke="altGraph t" />
+  </action>
   <action id="Macro.reformatSave">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
@@ -111,6 +119,9 @@
   </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
@@ -121,10 +132,13 @@
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="OverrideMethods" />
-  <action id="PhpNewFile">
+  <action id="PhpNewClass">
     <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
   <action id="PrevParameter" />
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
   <action id="PrevTemplateParameter" />
   <action id="PreviousEditorTab" />
   <action id="PreviousTab">
@@ -174,4 +188,5 @@
   <action id="ViewSource" />
   <action id="WD.UploadCurrentRemoteFileAction" />
   <action id="XDebugger.MoveWatchDown" />
+  <action id="com.jetbrains.php.framework.FrameworkRunConsoleAction" />
 </keymap>
