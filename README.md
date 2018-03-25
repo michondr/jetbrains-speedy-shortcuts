@@ -31,6 +31,7 @@ michondrKeymap.xml -> C:\Users\<User>\.PhpStorm2017.2\config\keymaps <br />
 `alt m` - next split screen (NextSplitter) <br />
 `alt n` - previous split screen (PrevSplitter) <br />
 `ctrl g` - go to row <br />
+`ctrl e` - recent files <br />
 
 ## code tweaks <br />
 `ctrl r` - refactor. works on methods, fields, classes, files. In project window can copy, move or rename files (Refactorings.QuickListPopupAction) <br />
