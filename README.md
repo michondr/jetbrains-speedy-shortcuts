@@ -43,6 +43,7 @@ michondrKeymap.xml -> C:\Users\<User>\.PhpStorm2017.2\config\keymaps <br />
 `alt up` - expand selection (EditorSelectWord) <br />
 `alt down` - narrow selection (EditorUnSelectWord) <br />
 `shift tab` - untab <br />
+`altGraph j` - join lines <br/>
 
 ## database actions <br />
 `alt a` - dump to clipboard - this uses default/set dump-style (Console.TableResult.Copy.DumpToClipboard) <br />
@@ -51,6 +52,7 @@ michondrKeymap.xml -> C:\Users\<User>\.PhpStorm2017.2\config\keymaps <br />
 `alt d` - filter - works like adding a where cause (Console.TableResult.EditFilterCriteria) <br />
 `alt p` - transpose (Console.TableResult.Transpose) <br />
 `ctrl j` - open table from database window (EditSource) <br />
+`ctrl shift j` - open table DDL from database window (SourceEditor) <br />
 `enter` - confirm change in table view (Console.TableResult.EditValue) <br />
 `ctrl t` - open new console from current view (Jdbc.OpenConsole.New) <br />
 `middle click` - jump to DDL - clicking on table in database window (Jdbc.OpenEditor.DDL) <br />
