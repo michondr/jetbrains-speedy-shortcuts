@@ -13,6 +13,7 @@
   </action>
   <action id="ActivateRedisServersToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="alt #100010d" />
   </action>
   <action id="ActivateRunToolWindow" />
   <action id="ActivateTerminalToolWindow">
@@ -71,6 +72,9 @@
     <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
   <action id="EditorIndentSelection" />
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="altGraph j" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
@@ -86,6 +90,9 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="altGraph c" />
+  </action>
   <action id="Git.Rebase">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
@@ -97,8 +104,8 @@
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="Jdbc.OpenEditor.DDL">
-    <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="shift ctrl j" />
   </action>
   <action id="LocalHistory">
     <keyboard-shortcut first-keystroke="alt h" />
