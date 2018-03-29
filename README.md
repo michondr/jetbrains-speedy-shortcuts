@@ -45,6 +45,7 @@ michondrKeymap.xml -> C:\Users\<User>\.PhpStorm2017.2\config\keymaps <br />
 `alt down` - narrow selection (EditorUnSelectWord) <br />
 `shift tab` - untab <br />
 `altGraph j` - join lines <br/>
+`ctrl p` - show method parameters/arguments <br />
 
 ## database actions <br />
 `alt a` - dump to clipboard - this uses default/set dump-style (Console.TableResult.Copy.DumpToClipboard) <br />
