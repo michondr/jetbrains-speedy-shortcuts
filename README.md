@@ -65,6 +65,7 @@ michondrKeymap.xml -> C:\Users\<User>\.PhpStorm2017.2\config\keymaps <br />
 `alt s` - add current class to services (Tool_External Tools_AddService BIN/CONSOLE) <br />
 `alt semicolon` - close all (Macro.clear workspace) - works only on windows <br />
 `altGraph t` - surround current selection for translate (Macro.pushTranslate) - works in twig <br />
+`altGraph w` - surrount current row to time watch (Macro.start/strop time watch) - works when you have defined tstart and tend watches <br />
 
 ## new files <br />
 `ctrl shift comma` - new scratch. When you have selected text, opens new scratch file of appropriate file type and inserts selection (NewScratchFile) <br />
@@ -77,3 +78,4 @@ michondrKeymap.xml -> C:\Users\<User>\.PhpStorm2017.2\config\keymaps <br />
 ## deployment <br />
 `alt q` - compare with remote and send (PublishGroup.SyncLocalVsRemoteWith) <br />
 `alt shift q` - sent directly to default remote <br />
+`altGraph c` - compare with branch on git (Git.CompareWithBranch)<br />
