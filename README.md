@@ -1,8 +1,13 @@
 # PhpStorm speedy shortcuts
 phpstorm settings - keymap, macros
 
-keymap.xml, macros.xml -> C:\Users\<User>\.PhpStorm2017.2\config\options <br />
-michondrKeymap.xml -> C:\Users\<User>\.PhpStorm2017.2\config\keymaps <br />
+on windows:
+keymap.xml, macros.xml -> C:\Users\<User>\.PhpStorm2018.1\config\options <br />
+michondrKeymap.xml -> C:\Users\<User>\.PhpStorm2018.1\config\keymaps <br />
+
+on linux:
+keymap.xml, macros.xml -> ~/.PhpStorm2018.1\config\options <br />
+michondrKeymap.xml -> ~/.PhpStorm2018.1\config\keymaps <br />
 
 ## content (current window) actions
 `ctrl w` - close tab (CloseContent) <br />
