@@ -1,6 +1,7 @@
 <keymap version="1" name="michondrKeymap" parent="$default">
   <action id="ActivateDatabaseConsoleToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
+    <keyboard-shortcut first-keystroke="alt #1000161" />
   </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
@@ -18,6 +19,9 @@
   <action id="ActivateRunToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="altGraph a" />
   </action>
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
@@ -99,6 +103,7 @@
   <action id="GotoTest" />
   <action id="HideAllWindows" />
   <action id="Images.ShowThumbnails" />
+  <action id="Inline" />
   <action id="InsertLiveTemplate" />
   <action id="Jdbc.OpenConsole.New">
     <keyboard-shortcut first-keystroke="ctrl t" />
@@ -136,7 +141,7 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="OpenFile">
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="OverrideMethods" />
   <action id="PhpNewClass">
@@ -189,6 +194,9 @@
   <action id="Vcs.Log.ShowAllAffected" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="altGraph s" />
   </action>
   <action id="Vcs.UpdateProject" />
   <action id="VcsHistory.ShowAllAffected" />
