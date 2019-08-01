@@ -18,6 +18,8 @@ michondrKeymap.xml -> ~/.PhpStorm2018.1\config\keymaps <br />
 `alt w` - commit (CheckinProject) <br />
 `alt e` - push (Vcs.Push) <br />
 `alt r` - rebase (Git.Rebase) <br />
+`altGraph a` - annotate (Annotate) <br/>
+`altGraph s` - show git history of file (Vcs.ShowTabbedFileHistory) <br/>
 
 ## window actions <br />
 `alt 1 (alt +)` - open/close project tree (ActivateProjectToolWindow) <br />
