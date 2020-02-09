@@ -109,3 +109,12 @@ you paste th eimploded ids and remove last comma. enter for showing results
 * no confirm on exit - if I want to exit, I do it
 * new project search box starts always in USER_HOME and always opens project in new window.
 * no tips on startup, thank you
+
+## external tools
+[/tools/External Tools.xml](/tools/External Tools.xml)
+
+#### tracy - open in chrome
+on `alt t` - opening tracy folder locally in chromium
+
+#### tracy - clear exceptions
+on `alt shift t` - clearing exceptions in `var/tracy` - in PHP written `rm $ProjectFileDir$/var/tracy/exteption*` but external tools do not support wildcards  

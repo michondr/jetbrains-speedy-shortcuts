@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="tracy - open in chrome" description="opens tracy dir in chrome" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="chromium" />
+      <option name="PARAMETERS" value="var/tracy" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="tracy - clear exceptions" description="clears all exception in tracy dir" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="php" />
+      <option name="PARAMETERS" value="-r &quot;array_map('unlink', glob(__DIR__.'/var/tracy/exception*.html'));&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
