@@ -1,43 +1,9 @@
 <application>
   <component name="ActionMacroManager">
-    <macro name="open in new tab">
-      <action id="GotoDeclaration" />
-      <action id="Back" />
-    </macro>
     <macro name="reformatSave">
       <action id="RearrangeCode" />
       <action id="ReformatCode" />
       <action id="SaveAll" />
-    </macro>
-    <macro name="clear workspace">
-      <action id="CloseAllEditorsButActive" />
-      <action id="HideAllWindows" />
-    </macro>
-    <macro name="pushTranslate">
-      <action id="EditorCut" />
-      <shortuct text="shift altGraph ALT_GRAPH" />
-      <typing text-keycode="0:33;0:33;45:1;45:1;522:1;135:1;135:1">{{__(''</typing>
-      <action id="EditorLeft" />
-      <action id="EditorPaste" />
-    </macro>
-    <macro name="start/strop time watch">
-      <action id="EditorLineStart" />
-      <action id="EditorEnter" />
-      <action id="EditorUp" />
-      <typing text-keycode="84:0;83:0;84:0;65:0;82:0;84:0;522:1;135:1;78:0;69:0;87:0;87:1;65:0;84:0;67:0;72:0">tstart('newWatch</typing>
-      <action id="EditorLineEnd" />
-      <typing text-keycode="59:0">;</typing>
-      <action id="EditorDown" />
-      <action id="EditorLineEnd" />
-      <action id="EditorEnter" />
-      <typing text-keycode="84:0;69:0;78:0;68:0;522:1;135:1;78:0;69:0;87:0;87:1;65:0;84:0;67:0;72:0">tend('newWatch</typing>
-      <action id="EditorLineEnd" />
-      <typing text-keycode="59:0">;</typing>
-      <action id="EditorLeft" />
-      <action id="EditorLeft" />
-      <action id="EditorLeft" />
-      <action id="EditorPreviousWordWithSelection" />
-      <action id="SelectAllOccurrences" />
     </macro>
   </component>
 </application>
