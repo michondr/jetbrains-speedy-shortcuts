@@ -86,3 +86,21 @@ michondrKeymap.xml -> ~/.PhpStorm2018.1\config\keymaps <br />
 `alt q` - compare with remote and send (PublishGroup.SyncLocalVsRemoteWith) <br />
 `alt shift q` - sent directly to default remote <br />
 `altGraph c` - compare with branch on git (Git.CompareWithBranch)<br />
+
+# Database settings
+
+## export in TSV quoted
+handy when searching in DB for multiple values:  
+```mysql
+SELECT * 
+FROM table 
+WHERE id in ('f47d2411-bfbe-4d87-9e64-7879cb7dd8ba',
+             'b564f37b-d829-47a0-b2e4-310d92cf7635',
+             'ad671f32-81ea-4775-ad83-a817055cf6cd')
+```
+
+while TSV export is selected, you select IDS in table, press `ctrl c` and quoted ids are imploded with comma. when you're searching table connected, you `alt d` to search bar and write  
+```mysql
+where id in (<crtl v><backspace>)
+```
+you paste th eimploded ids and remove last comma. enter for showing results
