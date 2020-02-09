@@ -104,3 +104,8 @@ while TSV export is selected, you select IDS in table, press `ctrl c` and quoted
 where id in (<crtl v><backspace>)
 ```
 you paste th eimploded ids and remove last comma. enter for showing results
+
+# IDE general
+* no confirm on exit - if I want to exit, I do it
+* new project search box starts always in USER_HOME and always opens project in new window.
+* no tips on startup, thank you
