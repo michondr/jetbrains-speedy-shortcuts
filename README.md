@@ -1,14 +1,10 @@
 # jetbrains speedy shortcuts
-on windows:
-options/* -> C:\Users\<User>\.PhpStorm2018.1\config\options <br />
-tools/* -> C:\Users\<User>\.PhpStorm2018.1\config\tools <br />
-keymaps/* -> C:\Users\<User>\.PhpStorm2018.1\config\keymaps <br />
-
-on linux:
+on linux move files from folders to jetbrains config folder:
 options/* -> ~/.PhpStorm2018.1\config\options <br />
 tools/* -> ~/.PhpStorm2018.1\config\tools <br />
 keymaps/* -> ~/.PhpStorm2018.1\config\keymaps <br />
 
+(trying more elegant solution with symlinks [here in leazy](https://github.com/michondr/leazy/blob/driveto-setup/tasks/programs/jetbrains/doJetbrains.sh))
 ## keymap
 ### content (current window) actions
 `ctrl w` - close tab (CloseContent) <br />
@@ -119,7 +115,7 @@ you paste th eimploded ids and remove last comma. enter for showing results
 * no tips on startup, thank you
 
 ## external tools
-[/tools/External Tools.xml](/tools/External Tools.xml)
+[/tools/External Tools.xml](/tools/External%20Tools.xml)
 
 #### tracy - open in chrome
 on `alt t` - opening tracy folder locally in chromium
