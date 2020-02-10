@@ -1,1 +1,9 @@
-/home/michondr/.config/jetbrains/PhpStorm/config/options/macros.xml
+<application>
+    <component name="ActionMacroManager">
+        <macro name="reformatSave">
+            <action id="RearrangeCode" />
+            <action id="ReformatCode" />
+            <action id="SaveAll" />
+        </macro>
+    </component>
+</application>
