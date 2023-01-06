@@ -2,90 +2,93 @@
 phpstorm settings - keymap, macros
 
 on linux:
-keymap.xml, macros.xml -> ~/.config/PhpStorm2022.3/config/options/keymapFlags.xml <br />
-michondrKeymap.xml -> ~/.config/PhpStorm2022.3/keymaps <br />
+keymap.xml -> ~/.config/PhpStorm2022.3/config/options/keymapFlags.xml  
+macros.xml -> ~/.config/PhpStorm2022.3/config/options/macros.xml  
+michondrKeymap.xml -> ~/.config/PhpStorm2022.3/keymaps  
 
-## content (current window) actions
-`ctrl w` - close tab (CloseContent) <br />
-`ctrl shift t` - reopen closed tab (ReopenClosedTab) <br />
-`ctrl shift w` - close all balast and keep current tab (CloseAllEditorsButActive) <br />
+## content (current window) actionsctrl w` - close tab (CloseContent)  
+`ctrl shift t` - reopen closed tab (ReopenClosedTab)  
+`ctrl shift w` - close all balast and keep current tab (CloseAllEditorsButActive)  
 
-## git actions <br />
-`alt w` - commit (CheckinProject) <br />
-`alt e` - push (Vcs.Push) <br />
-`alt r` - rebase (Git.Rebase) <br />
+## git actions
+`alt w` - commit (CheckinProject)  
+`alt e` - push (Vcs.Push)  
+`alt r` - rebase (Git.Rebase)  
 `altGraph a` - annotate (Annotate) <br/>
 `alt shift h` - show git history of file (Vcs.ShowTabbedFileHistory) <br/>
 
-## window actions <br />
-`alt 1 (alt +)` - open/close project tree (ActivateProjectToolWindow) <br />
-`alt 2 (alt ě)` - open/close database window (ActivateDatabaseToolWindow) <br />
-`alt 3 (alt š)` - open/close run window (tests) (ActivateRunToolWindow) <br />
-`alt 4 (alt č)` - open/close remove host (ActivateRemoteHostToolWindow) <br />
-`win then e` - change from split horizontally to vertically and vice versa (ChangeSplitOrientation) <br />
+## window actions
+`alt 1 (alt +)` - open/close project tree (ActivateProjectToolWindow)  
+`alt 2 (alt ě)` - open/close database window (ActivateDatabaseToolWindow)  
+`alt 3 (alt š)` - open/close run window (tests) (ActivateRunToolWindow)  
+`alt 4 (alt č)` - open/close remove host (ActivateRemoteHostToolWindow)  
+`win then e` - change from split horizontally to vertically and vice versa (ChangeSplitOrientation)  
 
-## navigation <br />
-`alt left (mouse back)` - Back <br />
-`alt right (mouse forward)` - Forward <br />
-`ctrl tab` - next tab (NextTab) <br />
-`ctrl shift tab` - previous tab (PreviousTab) <br />
-`ctrl alt left` - split tab to left (SplitVertically) <br />
-`ctrl alt right` - split tab down (SplitHorizontally) <br />
-`win then right` or `win then down` - next split screen (NextSplitter) <br />
-`win then left` or `win then up` - previous split screen (PrevSplitter) <br />
-`ctrl g` - go to row <br />
-`ctrl e` - recent files <br />
+## navigation
+`alt left (mouse back)` - Back  
+`alt right (mouse forward)` - Forward  
+`ctrl tab` - next tab (NextTab)  
+`ctrl shift tab` - previous tab (PreviousTab)  
+`ctrl alt left` - split tab to left (SplitVertically)  
+`ctrl alt right` - split tab down (SplitHorizontally)  
+`win then right` or `win then down` - next split screen (NextSplitter)  
+`win then left` or `win then up` - previous split screen (PrevSplitter)  
+`ctrl g` - go to row  
+`ctrl e` - recent files  
 
-## code tweaks <br />
-`ctrl r` - refactor. works on methods, fields, classes, files. In project window can copy, move or rename files (Refactorings.QuickListPopupAction) <br />
-`ctrl b (ctrl left click)` - jump to source. User to find source of method, or usages when in source <br />
-`ctrl shift c` - comment whole line (CommentByLineComment) <br />
-`ctrl x` - delete this line (or delete and copy selection) <br />
-`alt h` - show local history (LocalHistory) <br />
-`alt shift right` - move block of code 1 indent right (EditorIndentLineOrSelection) <br />
-`alt shift left` - move block of code 1 indent left (EditorUnindentSelection) <br />
-`alt shift up` - move block of code 1 row up <br />
-`alt shift down` - move block of code 1 row down <br />
-`alt up` - expand selection (EditorSelectWord) <br />
-`alt down` - narrow selection (EditorUnSelectWord) <br />
-`shift tab` - untab <br />
+## code tweaks
+`ctrl r` - refactor. works on methods, fields, classes, files. In project window can copy, move or rename files (Refactorings.QuickListPopupAction)  
+`ctrl b (ctrl left click)` - jump to source. User to find source of method, or usages when in source  
+`ctrl shift c` - comment whole line (CommentByLineComment)  
+`ctrl x` - delete this line (or delete and copy selection)  
+`alt h` - show local history (LocalHistory)  
+`alt shift right` - move block of code 1 indent right (EditorIndentLineOrSelection)  
+`alt shift left` - move block of code 1 indent left (EditorUnindentSelection)  
+`alt shift up` - move block of code 1 row up  
+`alt shift down` - move block of code 1 row down  
+`alt up` - expand selection (EditorSelectWord)  
+`alt down` - narrow selection (EditorUnSelectWord)  
+`shift tab` - untab  
 `altGraph j` - join lines <br/>
-`ctrl p` - show method parameters/arguments <br />
-`ctrl scrollUp` - expand region (ExpandRegion) <br />
-`ctrl scrollDown` - collapse region (CollapseRegion) <br />
-`ctrl shift scrollUp` - expand all regions (ExpandAllRegions) <br />
-`ctrl shift scrollDown` - collapse all regions (CollapseAllRegions) <br />
+`ctrl p` - show method parameters/arguments  
+`ctrl scrollUp` - expand region (ExpandRegion)  
+`ctrl scrollDown` - collapse region (CollapseRegion)  
+`ctrl shift scrollUp` - expand all regions (ExpandAllRegions)  
+`ctrl shift scrollDown` - collapse all regions (CollapseAllRegions)  
 
 
-## database actions <br />
-`alt a` - dump to clipboard - this uses default/set dump-style (Console.TableResult.Copy.DumpToClipboard) <br />
-`alt shift a` - dump to file - this uses default/set dump-style (Console.TableResult.Copy.DumpToFile) <br />
-`alt c` - count rows - works in database window, or when table view (Console.TableResult.CountRows) <br />
-`alt d` - filter - works like adding a where cause (Console.TableResult.EditFilterCriteria) <br />
-`alt p` - transpose (Console.TableResult.Transpose) <br />
-`ctrl j` - open table from database window (EditSource) <br />
-`ctrl shift j` - open table DDL from database window (SourceEditor) <br />
-`enter` - confirm change in table view (Console.TableResult.EditValue) <br />
-`ctrl t` - open new console from current view (Jdbc.OpenConsole.New) <br />
-`middle click` - jump to DDL - clicking on table in database window (Jdbc.OpenEditor.DDL) <br />
-`f6` - edit table <br />
+## database actions
+`alt a` - dump to clipboard - this uses default/set dump-style (Console.TableResult.Copy.DumpToClipboard)  
+`alt shift a` - dump to file - this uses default/set dump-style (Console.TableResult.Copy.DumpToFile)  
+`alt c` - count rows - works in database window, or when table view (Console.TableResult.CountRows)  
+`alt d` - filter - works like adding a where cause (Console.TableResult.EditFilterCriteria)  
+`alt p` - transpose (Console.TableResult.Transpose)  
+`ctrl j` - open table from database window (EditSource)  
+`ctrl shift j` - open table DDL from database window (SourceEditor)  
+`enter` - confirm change in table view (Console.TableResult.EditValue)  
+`ctrl t` - open new console from current view (Jdbc.OpenConsole.New)  
+`middle click` - jump to DDL - clicking on table in database window (Jdbc.OpenEditor.DDL)  
+`f6` - edit table  
 
-## files <br />
-`ctrl shift comma` - new scratch. When you have selected text, opens new scratch file of appropriate file type and inserts selection (NewScratchFile) <br />
-`ctrl shift period` - new php class (PhpNewClass) <br />
-`ctrl shift i` - new php test (PhpNewTest) <br />
-`alt r` - copy reference <br />
-`ctrl shift alt c` - copy file absolute path (CopyContentRootPath, CopyReferencePopup, CopyReferencePopupGroup) <br />
+## files
+`ctrl shift comma` - new scratch. When you have selected text, opens new scratch file of appropriate file type and inserts selection (NewScratchFile)  
+`ctrl shift period` - new php class (PhpNewClass)  
+`ctrl shift i` - new php test (PhpNewTest)  
+`alt r` - copy reference  
+`ctrl shift alt c` - copy file absolute path (CopyContentRootPath, CopyReferencePopup, CopyReferencePopupGroup)  
 
-## tests  <br />
-`altGraph t` - run tests (Run) <br />
-`altGraph shift t` - run failed tests (RerunFailedTests) <br />
+## tests
+`altGraph t` - run tests (Run)  
+`altGraph shift t` - run failed tests (RerunFailedTests)  
 
-## opening stuff <br />
-`ctrl o` - open new project/directory (OpenDirectoryProject) <br />
-`ctrl shift o` - open single file (OpenFile) <br />
+## macros
+`ctrl shift s` - refactor core, rearrange, save (RearrangeCode, ReformatCode, SaveAll)
 
-## deployment <br />
-`alt q` - compare with remote and send (PublishGroup.SyncLocalVsRemoteWith) <br />
-`alt shift q` - sent directly to default remote <br />
+## opening stuff
+`ctrl o` - open new project/directory (OpenDirectoryProject)  
+`ctrl shift o` - open single file (OpenFile)  
+
+## deployment
+`alt q` - compare with remote and send (PublishGroup.SyncLocalVsRemoteWith)  
+`alt shift q` - sent directly to default remote  
 `altGraph c` - compare with branch on git (Git.CompareWithBranch)<br />

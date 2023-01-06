@@ -206,6 +206,7 @@
     <keyboard-shortcut first-keystroke="altGraph t" />
   </action>
   <action id="SavaAs" />
+  <action id="SaveAs" />
   <action id="ScanKeysAction" />
   <action id="ShowContent" />
   <action id="SplitHorizontally">
