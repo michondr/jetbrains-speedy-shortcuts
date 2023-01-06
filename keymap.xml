@@ -1,5 +1,13 @@
 <application>
-  <component name="KeymapManager">
-    <active_keymap name="michondrKeymap" />
+  <component name="KeymapFlagsStorage">
+    <option name="keymapToDescriptor">
+      <map>
+        <entry key="michondrKeymap">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </application>
