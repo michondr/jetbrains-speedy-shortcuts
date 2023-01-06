@@ -14,10 +14,17 @@ ln -s ~/_michondr/speedy-shortcuts/keymap.xml ~/.config/JetBrains/PhpStorm2022.3
 ln -s ~/_michondr/speedy-shortcuts/macros.xml ~/.config/JetBrains/PhpStorm2022.3/options/macros.xml
 ```
 
-## content (current window) actions
+## content (tab window) actions
 `ctrl w` - close tab (CloseContent)  
 `ctrl shift t` - reopen closed tab (ReopenClosedTab)  
 `ctrl shift w` - close all balast and keep current tab (CloseAllEditorsButActive)  
+`ctrl tab` - next tab (NextTab)  
+`ctrl shift tab` - previous tab (PreviousTab)  
+`ctrl alt left` - split tab to left (SplitVertically)  
+`ctrl alt right` - split tab down (SplitHorizontally)  
+`win then right` or `win then down` - next split screen (NextSplitter)  
+`win then left` or `win then up` - previous split screen (PrevSplitter)  
+`win then e` - change from split horizontally to vertically and vice versa (ChangeSplitOrientation)
 
 ## git actions
 `alt w` - commit (CheckinProject)  
@@ -31,17 +38,10 @@ ln -s ~/_michondr/speedy-shortcuts/macros.xml ~/.config/JetBrains/PhpStorm2022.3
 `alt 2 (alt ě)` - open/close database window (ActivateDatabaseToolWindow)  
 `alt 3 (alt š)` - open/close run window (tests) (ActivateRunToolWindow)  
 `alt 4 (alt č)` - open/close remove host (ActivateRemoteHostToolWindow)  
-`win then e` - change from split horizontally to vertically and vice versa (ChangeSplitOrientation)  
 
 ## navigation
 `alt left (mouse back)` - Back  
 `alt right (mouse forward)` - Forward  
-`ctrl tab` - next tab (NextTab)  
-`ctrl shift tab` - previous tab (PreviousTab)  
-`ctrl alt left` - split tab to left (SplitVertically)  
-`ctrl alt right` - split tab down (SplitHorizontally)  
-`win then right` or `win then down` - next split screen (NextSplitter)  
-`win then left` or `win then up` - previous split screen (PrevSplitter)  
 `ctrl g` - go to row  
 `ctrl e` - recent files  
 
@@ -60,10 +60,10 @@ ln -s ~/_michondr/speedy-shortcuts/macros.xml ~/.config/JetBrains/PhpStorm2022.3
 `shift tab` - untab  
 `altGraph j` - join lines <br/>
 `ctrl p` - show method parameters/arguments  
-`ctrl scrollUp` - expand region (ExpandRegion)  
-`ctrl scrollDown` - collapse region (CollapseRegion)  
-`ctrl shift scrollUp` - expand all regions (ExpandAllRegions)  
-`ctrl shift scrollDown` - collapse all regions (CollapseAllRegions)  
+`ctrl scrollDown` - expand region (ExpandRegion)  
+`ctrl scrollUp` - collapse region (CollapseRegion)  
+`ctrl shift scrollDown` - expand all regions (ExpandAllRegions)  
+`ctrl shift scrollUp` - collapse all regions (CollapseAllRegions)  
 
 
 ## database actions
