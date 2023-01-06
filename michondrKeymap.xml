@@ -1,4 +1,4 @@
-<keymap version="2" name="michondrKeymap" parent="$default">
+<keymap version="1" name="michondrKeymap" parent="$default">
   <action id="ActivateDatabaseConsoleToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
     <keyboard-shortcut first-keystroke="alt #1000161" />

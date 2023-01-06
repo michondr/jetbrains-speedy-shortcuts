@@ -6,7 +6,16 @@ keymap.xml -> ~/.config/PhpStorm2022.3/config/options/keymapFlags.xml
 macros.xml -> ~/.config/PhpStorm2022.3/config/options/macros.xml  
 michondrKeymap.xml -> ~/.config/PhpStorm2022.3/keymaps  
 
-## content (current window) actionsctrl w` - close tab (CloseContent)  
+you can symlink these (don't forget to edit location where you've cloned the repo)
+
+```shell
+ln -s ~/_michondr/speedy-shortcuts/michondrKeymap.xml ~/.config/JetBrains/PhpStorm2022.3/keymaps/michondrKeymap.xml
+ln -s ~/_michondr/speedy-shortcuts/keymap.xml ~/.config/JetBrains/PhpStorm2022.3/options/keymapFlags.xml
+ln -s ~/_michondr/speedy-shortcuts/macros.xml ~/.config/JetBrains/PhpStorm2022.3/options/macros.xml
+```
+
+## content (current window) actions
+`ctrl w` - close tab (CloseContent)  
 `ctrl shift t` - reopen closed tab (ReopenClosedTab)  
 `ctrl shift w` - close all balast and keep current tab (CloseAllEditorsButActive)  
 
