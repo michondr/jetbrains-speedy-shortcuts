@@ -1,13 +1,9 @@
 # PhpStorm speedy shortcuts
 phpstorm settings - keymap, macros
 
-on windows:
-keymap.xml, macros.xml -> C:\Users\<User>\.PhpStorm2018.1\config\options <br />
-michondrKeymap.xml -> C:\Users\<User>\.PhpStorm2018.1\config\keymaps <br />
-
 on linux:
-keymap.xml, macros.xml -> ~/.PhpStorm2018.1\config\options <br />
-michondrKeymap.xml -> ~/.PhpStorm2018.1\config\keymaps <br />
+keymap.xml, macros.xml -> ~/.config/PhpStorm2022.3/config/options/keymapFlags.xml <br />
+michondrKeymap.xml -> ~/.config/PhpStorm2022.3/keymaps <br />
 
 ## content (current window) actions
 `ctrl w` - close tab (CloseContent) <br />
@@ -19,14 +15,14 @@ michondrKeymap.xml -> ~/.PhpStorm2018.1\config\keymaps <br />
 `alt e` - push (Vcs.Push) <br />
 `alt r` - rebase (Git.Rebase) <br />
 `altGraph a` - annotate (Annotate) <br/>
-`altGraph s` - show git history of file (Vcs.ShowTabbedFileHistory) <br/>
+`alt shift h` - show git history of file (Vcs.ShowTabbedFileHistory) <br/>
 
 ## window actions <br />
 `alt 1 (alt +)` - open/close project tree (ActivateProjectToolWindow) <br />
 `alt 2 (alt ě)` - open/close database window (ActivateDatabaseToolWindow) <br />
-`alt 3 (alt š)` - open/close database result console of current/last database tab where ran query (ActivateDatabaseConsoleToolWindow) <br />
-`alt 4 (alt č)` - open/close redis (ActivateRedisServersToolWindow) <br />
-`alt t` - open/close terminal window (ActivateTerminalToolWindow) <br />
+`alt 3 (alt š)` - open/close run window (tests) (ActivateRunToolWindow) <br />
+`alt 4 (alt č)` - open/close remove host (ActivateRemoteHostToolWindow) <br />
+`win then e` - change from split horizontally to vertically and vice versa (ChangeSplitOrientation) <br />
 
 ## navigation <br />
 `alt left (mouse back)` - Back <br />
@@ -35,8 +31,8 @@ michondrKeymap.xml -> ~/.PhpStorm2018.1\config\keymaps <br />
 `ctrl shift tab` - previous tab (PreviousTab) <br />
 `ctrl alt left` - split tab to left (SplitVertically) <br />
 `ctrl alt right` - split tab down (SplitHorizontally) <br />
-`alt m` - next split screen (NextSplitter) <br />
-`alt n` - previous split screen (PrevSplitter) <br />
+`win then right` or `win then down` - next split screen (NextSplitter) <br />
+`win then left` or `win then up` - previous split screen (PrevSplitter) <br />
 `ctrl g` - go to row <br />
 `ctrl e` - recent files <br />
 
@@ -48,11 +44,18 @@ michondrKeymap.xml -> ~/.PhpStorm2018.1\config\keymaps <br />
 `alt h` - show local history (LocalHistory) <br />
 `alt shift right` - move block of code 1 indent right (EditorIndentLineOrSelection) <br />
 `alt shift left` - move block of code 1 indent left (EditorUnindentSelection) <br />
+`alt shift up` - move block of code 1 row up <br />
+`alt shift down` - move block of code 1 row down <br />
 `alt up` - expand selection (EditorSelectWord) <br />
 `alt down` - narrow selection (EditorUnSelectWord) <br />
 `shift tab` - untab <br />
 `altGraph j` - join lines <br/>
 `ctrl p` - show method parameters/arguments <br />
+`ctrl scrollUp` - expand region (ExpandRegion) <br />
+`ctrl scrollDown` - collapse region (CollapseRegion) <br />
+`ctrl shift scrollUp` - expand all regions (ExpandAllRegions) <br />
+`ctrl shift scrollDown` - collapse all regions (CollapseAllRegions) <br />
+
 
 ## database actions <br />
 `alt a` - dump to clipboard - this uses default/set dump-style (Console.TableResult.Copy.DumpToClipboard) <br />
@@ -67,16 +70,16 @@ michondrKeymap.xml -> ~/.PhpStorm2018.1\config\keymaps <br />
 `middle click` - jump to DDL - clicking on table in database window (Jdbc.OpenEditor.DDL) <br />
 `f6` - edit table <br />
 
-## macros <br />
-`ctrl shift s` - reformat, rearrange, save (Macro.reformatSave) <br />
-`alt s` - add current class to services (Tool_External Tools_AddService BIN/CONSOLE) <br />
-`alt semicolon` - close all (Macro.clear workspace) - works only on windows <br />
-`altGraph t` - surround current selection for translate (Macro.pushTranslate) - works in twig <br />
-`altGraph w` - surrount current row to time watch (Macro.start/strop time watch) - works when you have defined tstart and tend watches <br />
-
-## new files <br />
+## files <br />
 `ctrl shift comma` - new scratch. When you have selected text, opens new scratch file of appropriate file type and inserts selection (NewScratchFile) <br />
 `ctrl shift period` - new php class (PhpNewClass) <br />
+`ctrl shift i` - new php test (PhpNewTest) <br />
+`alt r` - copy reference <br />
+`ctrl shift alt c` - copy file absolute path (CopyContentRootPath, CopyReferencePopup, CopyReferencePopupGroup) <br />
+
+## tests  <br />
+`altGraph t` - run tests (Run) <br />
+`altGraph shift t` - run failed tests (RerunFailedTests) <br />
 
 ## opening stuff <br />
 `ctrl o` - open new project/directory (OpenDirectoryProject) <br />
